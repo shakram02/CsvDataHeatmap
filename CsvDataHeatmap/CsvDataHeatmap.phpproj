@@ -18,5 +18,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="index.php" />
+    <Compile Include="upload.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="uploads\Copy o f Filtered - Math_Test_Results.csv" />
+    <Content Include="uploads\Filtered - Math_Test_Results_2006-2012_-_Citywide_-_SWD.csv" />
+    <Content Include="uploads\Filtered 4 sized - Math_Test_Results_2006-2012_-_Citywide_-_SWD.csv" />
+    <Content Include="uploads\ppg2008.csv" />
   </ItemGroup>
 </Project>
