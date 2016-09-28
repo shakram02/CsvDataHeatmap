@@ -20,7 +20,7 @@ if(isset($_POST["submit"])) {
     }
     else
     {
-        echo "File is valid - " . $check["mime"] . ".";
+        echo "File is valid - " . $_FILES["fileToUpload"]["name"] . ".";
         $uploadOk = 1;
     }
 
